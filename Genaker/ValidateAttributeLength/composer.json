@@ -1,0 +1,22 @@
+{
+    "name": "genaker/module-validateattributelength",
+    "description": "Validate Attribute Length",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yehor Shytikov",
+            "email": "yehorshytikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Genaker\\ValidateAttributeLength\\": ""
+        }
+    }
+}
